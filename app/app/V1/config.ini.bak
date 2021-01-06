@@ -1,0 +1,38 @@
+[ !!!--- 变量值必须用双引号包裹，不要弄错 ---!!! ]
+[API通讯实际地址]
+base_url= "https://xxxxx.com"
+
+[启动图和跳转url]
+bootstrap_show= 0
+bootstrap_img = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572070885179&di=4268bebc52072ff6fbef356d97bb3653&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01b828567bb59e6ac725ad905b2da8.png%402o.png"
+bootstrap_url = "http://baidu.com"
+
+[公告相关]
+broad_show = 1
+title = "连接后没有网络？"
+content = "1.请尝试切换手机网或连接wifi<br>2.请切换线路，推荐使用台湾<br>3.请重启手机或路由器<br>"
+broad_url = ""
+
+[安卓版本更新]
+update_version_code = 332
+update_description = "1.网站更名为xx加速<br>2.用户数据全部保留，无任何影响！"
+update_download = "https://baidu.com"
+
+[ 订阅地址（win+mac)使用]
+[ subUrl默认会被替换成config中的subUrl, token是用户标志 ]
+subscribe = "[subUrl][token]?clash=2"
+subecribe_rule = "Proxy"
+
+[ 订阅地址（andorid)使用 可以设置多段，中间用英文竖线隔开]
+android_subscribe = "[subUrl][token]?sub=3|[subUrl][token]?sub=1"
+
+[ MAC+WIN 公告相关 ]
+pc_anno_show = 1
+pc_anno_title = "连接后没有网络？"
+pc_anno_content ="1.请尝试切换手机网或连接wifi<br>2.请切换线路，推荐使用台湾<br>3.请重启手机或路由器<br>"
+
+[ MAC+WIN 版本更新]
+pc_update_version_code = 100
+pc_update_description = "1.修复Google商店不能使用的问题！<br>2.稳定性优化"
+pc_update_download = "https://baidu.com"
+pc_update_download_mac = "https://baidu.com"
